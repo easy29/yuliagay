@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yulia gay?</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+        .container {
+            text-align: center;
+        }
+        #nao-btn {
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Responda com sinceridade, a yulia e gay? </h1>
+        <button id="breno-btn">1. kkkkkkkkkk muito gay pqp  </button>
+        <button id="nao-btn">2. Não</button>
+    </div>
+
+    <script>
+        document.getElementById('breno-btn').onclick = function() {
+            window.location.href = 'https://youtu.be/mdUlSd2Md0M?si=02mhnSLYsaYlKOii'; // Substitua pelo link desejado
+        };
+
+        document.getElementById('nao-btn').onmouseover = function() {
+            const button = this;
+            const x = Math.floor(Math.random() * (window.innerWidth - button.clientWidth));
+            const y = Math.floor(Math.random() * (window.innerHeight - button.clientHeight));
+            button.style.left = x + 'px';
+            button.style.top = y + 'px';
+        };
+    </script>
+</body>
+</html>
